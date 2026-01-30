@@ -50,6 +50,8 @@ public class StudentService {
         student.setMarks(stu.getMarks());
 
         return studentRepos.save(student);
+
+
     }
 
     public List<Student> findStudentByCourse(String course) {
